@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <br>
+    <h1> Añadir preguntas a concurso </h1>
+    
+    <form enctype="multipart/form-data" action="." method="POST" name="add_questionnaire">
+        {% csrf_token %}
+        <label for= "id_selected_contest">Concurso:</label>
+        <select id="id_selected_contest" name="selected_contest">
+            {% for contest in contests %}
+                <option value="{{ contest.name }}">{{ contest.name }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <br>
+        <label for= "id_selected_question">Pregunta:</label>
+        <select id="id_selected_question" name="selected_question">
+            {% for question in questions %}
+                <option value="{{ question.name }}">{{ question.name }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <br>
+        <label for= "id_selected_type">Tipo de acción:</label>
+        <select id="id_selected_type" name="selected_type">
+            <option value="Add">Añadir</option>
+            <option value="Remove">Eliminar</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <h3>Pregunas asignadas a los concursos:</h2>
+        {% for contest in contests %}
+            <br>   
+            <h4>Preguntas asignadas al concurso {{contest.name}}</h3>
+            <ul>
+                {% if contest.questions_ids %}
+                    {% for question in contest.questions_ids %}
+                        {% for q in questions %}
+                            {% if q.id == question %}
+                                <li>{{ q.name }}</li>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                {% else %}
+                    <li>No hay preguntas asignadas</li>
+                {% endif %}
+            </ul>
+        {% endfor %}
+        <br>
+        <button type="submit">Enviar</button>
+    </form> 
+{% endblock %}

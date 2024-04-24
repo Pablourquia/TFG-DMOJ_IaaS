@@ -241,6 +241,20 @@
             {{ post_to_twitter(request, SITE_NAME + ':', contest, '<i class="fa fa-twitter"></i>') }}
         </span>
     {% endif %}
+    <h3>Preguntas asociadas al concurso </h3>
+    {% if contest.questions_ids %}
+        {% for q in contest.questions_ids %}
+            {% for k in all_questions %}
+                {% if k.id == q %}
+                    <br>
+                    <a href="{{ url('add_response', contest=contest.id, question=q) }}">{{ k.name }}</a>
+                    <br>
+                    {% endif %}
+            {% endfor %}      
+        {% endfor %}
+    {% else %}
+        <p>No hay preguntas asociadas al concurso</p>
+    {% endif %}
 
     {% if enable_comments %}
         {% include "comments/list.html" %}

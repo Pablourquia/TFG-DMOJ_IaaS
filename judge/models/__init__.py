@@ -14,6 +14,7 @@ from judge.models.profile import Class, Organization, OrganizationRequest, Profi
 from judge.models.runtime import Judge, Language, RuntimeVersion
 from judge.models.submission import SUBMISSION_RESULT, Submission, SubmissionSource, SubmissionTestCase
 from judge.models.ticket import Ticket, TicketMessage
+from judge.models.questionnaire import Questionnaire, Question, CorrectAnswers, SubmissionAnswers
 
 revisions.register(Profile, exclude=['points', 'last_access', 'ip', 'rating'])
 revisions.register(Problem, follow=['language_limits'])
@@ -23,6 +24,10 @@ revisions.register(ContestProblem)
 revisions.register(Organization)
 revisions.register(BlogPost)
 revisions.register(Solution)
+revisions.register(Questionnaire)
+revisions.register(SubmissionAnswers)
+revisions.register(Question, follow=['questionnaire'])
+revisions.register(CorrectAnswers)
 revisions.register(Judge, fields=['name', 'created', 'auth_key', 'description'])
 revisions.register(Language)
 revisions.register(Comment, fields=['author', 'time', 'page', 'score', 'body', 'hidden', 'parent'])

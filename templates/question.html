@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <h1> Nueva pregunta </h1>
+    
+    <form enctype="multipart/form-data" action="." method="POST" name="add_questionnaire">
+        {% csrf_token %}
+        <label for="id_name">Nombre:</label>
+        <input type="text" id="id_name" name="name" required>
+        <br>
+        <span class="info" title="A short name for the questionnaire, preferably using only letters, numbers and underscores."></span>
+        
+        <label for="id_statement">Enunciado de la pregunta:</label>
+        <input type="file" id="id_statement" name="statement">
+        <br>
+
+        <label for="id_type_question">Tipo de la pregunta:</label>
+        <select id="id_type_question" name="type_question"
+            onchange="toggleNumberOptions(); this.value === 'options' ? showItemsOptions() : showItemsDevelopment()">
+            <option value="development">Desarrollo</option>
+            <option value="options">Opciones</option>
+        </select>
+        <br>
+
+        <div id="container">
+            <div id="options_container" style="display: none;">
+                <label for="id_options_quantity">Número de opciones:</label>
+                <input type="number" id="id_options_quantity" name="options_quantity" value="1" min="1" max="10" onchange="showItemsOptions()">
+                <br>
+                <div id="container1">
+                </div>
+                <br>
+            </div>
+            <label for="id_number_answers">Número de respuestas:</label>
+            <input type="number" id="id_number_answers" name="number_answers" value="1" min="1" max="10" onchange="showItemsDevelopment()">
+            <br>
+            <div id="container2">
+            </div>
+            <br>
+        </div>
+
+        <label for="id_questionnaire_name">Cuestionario:</label>
+        <select id="id_questionnaire_name" name="questionnaire_name">
+            {% for questionnaire in questionnaires %}
+                <option value="{{ questionnaire.id }}">{{ questionnaire.name }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <div id="container3"></div>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        function showItemsOptions() {
+            var cantidad_options = document.getElementById("id_options_quantity").value;
+            var container = document.getElementById("container1");
+            container.innerHTML = "";
+            for (var i = 0; i < cantidad_options; i++) {
+                var input = document.createElement("input");
+                input.type = "text";
+                input.name = "options_option_" + (i + 1);
+                input.placeholder = "Opción " + (i + 1);
+                container.appendChild(input);
+            }
+        }
+
+        function showItemsDevelopment() {
+            var number_answers = document.getElementById("id_number_answers").value;
+            var container = document.getElementById("container2");
+            container.innerHTML = "";
+            for (var i = 0; i < number_answers; i++) {
+                var input = document.createElement("input");
+                input.type = "text";
+                input.name = "answer_" + (i + 1);
+                input.placeholder = "Respuesta " + (i + 1);
+                container.appendChild(input);
+            }
+        }
+
+        function toggleNumberOptions() {
+            var optionsCantidad = document.getElementById("options_container");
+            var tipoPregunta = document.getElementById("id_type_question").value;
+            optionsCantidad.style.display = tipoPregunta === "options" ? "block" : "none";
+        }
+
+    </script>
+{% endblock %}

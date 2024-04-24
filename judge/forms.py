@@ -316,3 +316,42 @@ class ProblemPointsVoteForm(ModelForm):
     class Meta:
         model = ProblemPointsVote
         fields = ['points', 'note']
+
+class QuestionnaireForm(forms.Form):
+    name = forms.CharField(max_length=100, required=True, label="Name")
+
+class QuestionForm(forms.Form):
+    name = forms.CharField(max_length=100, required=True, label="Name")
+    statement = forms.FileField(label="Statement of question")
+    type_question = forms.ChoiceField(choices=[('development', 'Development'), ('options', 'Options')],
+                                      label="Type of question", widget=forms.Select(attrs={'onchange': 'toggleNumberOptions(); this.value === "options" ? showItemsOptions() : showItemsDevelopment()'}))
+    options_quantity = forms.IntegerField(min_value=1, max_value=10, initial=1, label="Number of options", widget=forms.NumberInput(attrs={'onchange': 'showItemsOptions()'}))
+    number_answers = forms.IntegerField(min_value=1, max_value=10, initial=1, label="Number of answers", widget=forms.NumberInput(attrs={'onchange': 'showItemsDevelopment()'}))
+    questionnaire_name = forms.CharField(max_length=100, required=True, label="Questionnaire name")
+
+class AddQuestionForm(forms.Form):
+    selected_contest = forms.CharField(max_length=100, required=True, label="Contest")
+    selected_question = forms.CharField(max_length=100, required=True, label="Question")
+    selected_type = forms.CharField(max_length=100, required=True, label="Type")
+
+
+
+class AddResponseForm(forms.Form):
+    def __init__(self, *args, **kwargs):
+        question_type = kwargs.pop('question_type', None)
+        options = kwargs.pop('options', [])
+        entries_quantity = kwargs.pop('entries_quantity', 1)
+        super(AddResponseForm, self).__init__(*args, **kwargs)
+
+        if question_type == "options":
+            self.fields['selected_option'] = forms.ChoiceField(
+                choices=options,
+                widget=forms.RadioSelect,
+                label="Select Option"
+            )
+        elif question_type == "development":
+            for i in range(entries_quantity):
+                self.fields[f'development_answer_{i+1}'] = forms.CharField(
+                    widget=forms.Textarea,
+                    label=f"Development Answer {i+1}"
+                )

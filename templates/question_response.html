@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+
+<div class="page-header">
+    <h1>{{question.name}}</h1>
+</div>
+
+<h2>Statement</h2>
+
+{% if not question.file %}
+<div class="row statement no_statements">
+    <div class="span9">
+        No hay enunciado disponible
+    </div>
+</div>
+{% else %}
+<div class="row statement one_statement">
+    <div class="span9">
+        <a href="{{ url('serve_file', file_path=absolute_url) }}" class="btn btn-large btn-success" download="{{ name_file }}">Descargar enunciado de {{ question.name }}</a>
+    </div>
+</div>
+{% endif %}
+
+<h2>Respuestas:</h2>
+
+<form enctype="multipart/form-data" action="{{ question.id }}" method="post" name="add_response">
+    {% csrf_token %}
+
+    {% if form['selected_option'] %}
+        {{ form['selected_option'] }}
+    {% elif form['development_answer_1'] %}
+        {% for i in form %}
+            {{ i }}
+        {% endfor %}
+    {% endif %}
+
+    <br>
+    <br>
+    <button type="submit">Enviar</button>
+
+</form>
+
+<div class="row statement one_statement">
+    <div class="span9">
+        {% if boolean_vector[question.id] %}
+            <button type="button" style="background-color: green;">Respuesta Correcta</button>
+        {% else %}
+            <button type="button" style="background-color: red;">Respuesta Incorrecta</button>
+        {% endif %}
+    </div>
+</div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <h1> Nuevo cuestionario </h1>
+    
+    <form enctype="multipart/form-data" action="." method="POST" name="add_contest">
+        {% csrf_token %}
+        <br>
+        <label for="id_name">Nombre:</label>
+        <input type="text" id="id_name" name="name" required>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+{% endblock %}

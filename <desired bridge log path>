@@ -1,0 +1,369 @@
+INFO 2024-04-03 17:17:44,077 judge_handler Judge connected from: ('127.0.0.1', 52792)
+INFO 2024-04-03 17:17:44,133 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52792)
+INFO 2024-04-03 17:17:44,133 judge_handler Judge disconnected from: ('127.0.0.1', 52792) with name None
+INFO 2024-04-03 17:17:44,192 judge_handler Judge connected from: ('127.0.0.1', 52796)
+INFO 2024-04-03 17:17:44,248 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52796)
+INFO 2024-04-03 17:17:44,249 judge_handler Judge disconnected from: ('127.0.0.1', 52796) with name None
+INFO 2024-04-03 17:17:44,308 judge_handler Judge connected from: ('127.0.0.1', 52800)
+INFO 2024-04-03 17:17:44,363 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52800)
+INFO 2024-04-03 17:17:44,364 judge_handler Judge disconnected from: ('127.0.0.1', 52800) with name None
+INFO 2024-04-03 17:17:44,422 judge_handler Judge connected from: ('127.0.0.1', 52804)
+INFO 2024-04-03 17:17:44,477 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52804)
+INFO 2024-04-03 17:17:44,478 judge_handler Judge disconnected from: ('127.0.0.1', 52804) with name None
+INFO 2024-04-03 17:17:44,535 judge_handler Judge connected from: ('127.0.0.1', 52808)
+INFO 2024-04-03 17:17:44,590 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52808)
+INFO 2024-04-03 17:17:44,591 judge_handler Judge disconnected from: ('127.0.0.1', 52808) with name None
+INFO 2024-04-03 17:17:44,648 judge_handler Judge connected from: ('127.0.0.1', 52812)
+INFO 2024-04-03 17:17:44,704 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52812)
+INFO 2024-04-03 17:17:44,705 judge_handler Judge disconnected from: ('127.0.0.1', 52812) with name None
+INFO 2024-04-03 17:17:44,762 judge_handler Judge connected from: ('127.0.0.1', 52816)
+INFO 2024-04-03 17:17:44,817 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52816)
+INFO 2024-04-03 17:17:44,818 judge_handler Judge disconnected from: ('127.0.0.1', 52816) with name None
+INFO 2024-04-03 17:17:44,875 judge_handler Judge connected from: ('127.0.0.1', 52820)
+INFO 2024-04-03 17:17:44,930 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52820)
+INFO 2024-04-03 17:17:44,931 judge_handler Judge disconnected from: ('127.0.0.1', 52820) with name None
+INFO 2024-04-03 17:17:44,992 judge_handler Judge connected from: ('127.0.0.1', 52824)
+INFO 2024-04-03 17:17:45,048 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52824)
+INFO 2024-04-03 17:17:45,049 judge_handler Judge disconnected from: ('127.0.0.1', 52824) with name None
+INFO 2024-04-03 17:17:45,106 judge_handler Judge connected from: ('127.0.0.1', 52828)
+INFO 2024-04-03 17:17:45,164 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52828)
+INFO 2024-04-03 17:17:45,165 judge_handler Judge disconnected from: ('127.0.0.1', 52828) with name None
+INFO 2024-04-03 17:17:52,917 judge_handler Judge connected from: ('127.0.0.1', 52832)
+INFO 2024-04-03 17:17:52,973 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52832)
+INFO 2024-04-03 17:17:52,974 judge_handler Judge disconnected from: ('127.0.0.1', 52832) with name None
+INFO 2024-04-03 17:17:53,032 judge_handler Judge connected from: ('127.0.0.1', 52836)
+INFO 2024-04-03 17:17:53,087 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52836)
+INFO 2024-04-03 17:17:53,088 judge_handler Judge disconnected from: ('127.0.0.1', 52836) with name None
+INFO 2024-04-03 17:17:53,148 judge_handler Judge connected from: ('127.0.0.1', 52840)
+INFO 2024-04-03 17:17:53,202 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52840)
+INFO 2024-04-03 17:17:53,203 judge_handler Judge disconnected from: ('127.0.0.1', 52840) with name None
+INFO 2024-04-03 17:17:53,292 judge_handler Judge connected from: ('127.0.0.1', 52844)
+INFO 2024-04-03 17:17:53,349 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52844)
+INFO 2024-04-03 17:17:53,350 judge_handler Judge disconnected from: ('127.0.0.1', 52844) with name None
+INFO 2024-04-03 17:17:53,407 judge_handler Judge connected from: ('127.0.0.1', 52848)
+INFO 2024-04-03 17:17:53,462 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52848)
+INFO 2024-04-03 17:17:53,463 judge_handler Judge disconnected from: ('127.0.0.1', 52848) with name None
+INFO 2024-04-03 17:17:53,520 judge_handler Judge connected from: ('127.0.0.1', 52852)
+INFO 2024-04-03 17:17:53,576 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52852)
+INFO 2024-04-03 17:17:53,577 judge_handler Judge disconnected from: ('127.0.0.1', 52852) with name None
+INFO 2024-04-03 17:17:53,636 judge_handler Judge connected from: ('127.0.0.1', 52856)
+INFO 2024-04-03 17:17:53,697 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52856)
+INFO 2024-04-03 17:17:53,698 judge_handler Judge disconnected from: ('127.0.0.1', 52856) with name None
+INFO 2024-04-03 17:17:53,758 judge_handler Judge connected from: ('127.0.0.1', 52860)
+INFO 2024-04-03 17:17:53,815 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52860)
+INFO 2024-04-03 17:17:53,816 judge_handler Judge disconnected from: ('127.0.0.1', 52860) with name None
+INFO 2024-04-03 17:17:53,875 judge_handler Judge connected from: ('127.0.0.1', 52864)
+INFO 2024-04-03 17:17:53,932 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52864)
+INFO 2024-04-03 17:17:53,933 judge_handler Judge disconnected from: ('127.0.0.1', 52864) with name None
+INFO 2024-04-03 17:17:53,993 judge_handler Judge connected from: ('127.0.0.1', 52868)
+INFO 2024-04-03 17:17:54,050 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 52868)
+INFO 2024-04-03 17:17:54,051 judge_handler Judge disconnected from: ('127.0.0.1', 52868) with name None
+INFO 2024-04-14 10:20:43,104 judge_handler Judge connected from: ('127.0.0.1', 58020)
+INFO 2024-04-14 10:20:43,160 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58020)
+INFO 2024-04-14 10:20:43,161 judge_handler Judge disconnected from: ('127.0.0.1', 58020) with name None
+INFO 2024-04-14 10:20:43,218 judge_handler Judge connected from: ('127.0.0.1', 58024)
+INFO 2024-04-14 10:20:43,274 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58024)
+INFO 2024-04-14 10:20:43,274 judge_handler Judge disconnected from: ('127.0.0.1', 58024) with name None
+INFO 2024-04-14 10:20:43,331 judge_handler Judge connected from: ('127.0.0.1', 58028)
+INFO 2024-04-14 10:20:43,387 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58028)
+INFO 2024-04-14 10:20:43,388 judge_handler Judge disconnected from: ('127.0.0.1', 58028) with name None
+INFO 2024-04-14 10:20:43,448 judge_handler Judge connected from: ('127.0.0.1', 58032)
+INFO 2024-04-14 10:20:43,503 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58032)
+INFO 2024-04-14 10:20:43,504 judge_handler Judge disconnected from: ('127.0.0.1', 58032) with name None
+INFO 2024-04-14 10:20:43,563 judge_handler Judge connected from: ('127.0.0.1', 58036)
+INFO 2024-04-14 10:20:43,619 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58036)
+INFO 2024-04-14 10:20:43,620 judge_handler Judge disconnected from: ('127.0.0.1', 58036) with name None
+INFO 2024-04-14 10:20:43,679 judge_handler Judge connected from: ('127.0.0.1', 58040)
+INFO 2024-04-14 10:20:43,736 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58040)
+INFO 2024-04-14 10:20:43,737 judge_handler Judge disconnected from: ('127.0.0.1', 58040) with name None
+INFO 2024-04-14 10:20:43,798 judge_handler Judge connected from: ('127.0.0.1', 58044)
+INFO 2024-04-14 10:20:43,853 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58044)
+INFO 2024-04-14 10:20:43,854 judge_handler Judge disconnected from: ('127.0.0.1', 58044) with name None
+INFO 2024-04-14 10:20:43,911 judge_handler Judge connected from: ('127.0.0.1', 58048)
+INFO 2024-04-14 10:20:43,966 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58048)
+INFO 2024-04-14 10:20:43,967 judge_handler Judge disconnected from: ('127.0.0.1', 58048) with name None
+INFO 2024-04-14 10:20:44,024 judge_handler Judge connected from: ('127.0.0.1', 58052)
+INFO 2024-04-14 10:20:44,079 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58052)
+INFO 2024-04-14 10:20:44,080 judge_handler Judge disconnected from: ('127.0.0.1', 58052) with name None
+INFO 2024-04-14 10:20:44,138 judge_handler Judge connected from: ('127.0.0.1', 58056)
+INFO 2024-04-14 10:20:44,195 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58056)
+INFO 2024-04-14 10:20:44,196 judge_handler Judge disconnected from: ('127.0.0.1', 58056) with name None
+INFO 2024-04-14 10:22:02,511 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44828)
+INFO 2024-04-14 10:22:02,626 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44832)
+INFO 2024-04-14 10:22:02,741 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44836)
+INFO 2024-04-14 10:22:02,855 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44840)
+INFO 2024-04-14 10:22:03,266 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44844)
+INFO 2024-04-14 10:22:03,383 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44848)
+INFO 2024-04-14 10:22:03,500 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44852)
+INFO 2024-04-14 10:22:03,619 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44856)
+INFO 2024-04-14 10:22:04,242 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44860)
+INFO 2024-04-14 10:22:04,359 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44864)
+INFO 2024-04-14 10:22:56,513 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44872)
+INFO 2024-04-14 10:23:25,440 judge_handler Judge connected from: ('127.0.0.1', 58124)
+INFO 2024-04-14 10:23:25,440 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58124)
+INFO 2024-04-14 10:23:25,441 judge_handler Judge disconnected from: ('127.0.0.1', 58124) with name None
+INFO 2024-04-14 10:23:28,973 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44880)
+INFO 2024-04-14 10:28:14,141 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44924)
+INFO 2024-04-14 10:28:14,254 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44928)
+INFO 2024-04-14 10:28:14,369 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44932)
+INFO 2024-04-14 10:28:14,482 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44936)
+INFO 2024-04-14 10:28:14,606 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44940)
+INFO 2024-04-14 10:28:14,728 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44944)
+INFO 2024-04-14 10:28:14,845 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44948)
+INFO 2024-04-14 10:28:14,964 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44952)
+INFO 2024-04-14 10:28:15,081 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44956)
+INFO 2024-04-14 10:28:15,197 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44960)
+INFO 2024-04-14 10:28:16,155 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44964)
+INFO 2024-04-14 10:28:16,269 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44968)
+INFO 2024-04-14 10:28:16,384 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44972)
+INFO 2024-04-14 10:28:16,501 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44976)
+INFO 2024-04-14 10:28:16,615 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44980)
+INFO 2024-04-14 10:28:16,732 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44984)
+INFO 2024-04-14 10:28:16,846 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44988)
+INFO 2024-04-14 10:28:16,961 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44992)
+INFO 2024-04-14 10:28:17,079 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 44996)
+INFO 2024-04-14 10:28:17,196 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45000)
+INFO 2024-04-14 10:28:19,239 judge_handler Judge connected from: ('127.0.0.1', 58252)
+INFO 2024-04-14 10:28:19,294 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58252)
+INFO 2024-04-14 10:28:19,295 judge_handler Judge disconnected from: ('127.0.0.1', 58252) with name None
+INFO 2024-04-14 10:28:19,353 judge_handler Judge connected from: ('127.0.0.1', 58256)
+INFO 2024-04-14 10:28:19,409 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58256)
+INFO 2024-04-14 10:28:19,410 judge_handler Judge disconnected from: ('127.0.0.1', 58256) with name None
+INFO 2024-04-14 10:28:19,470 judge_handler Judge connected from: ('127.0.0.1', 58260)
+INFO 2024-04-14 10:28:19,528 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58260)
+INFO 2024-04-14 10:28:19,528 judge_handler Judge disconnected from: ('127.0.0.1', 58260) with name None
+INFO 2024-04-14 10:28:19,588 judge_handler Judge connected from: ('127.0.0.1', 58264)
+INFO 2024-04-14 10:28:19,645 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58264)
+INFO 2024-04-14 10:28:19,645 judge_handler Judge disconnected from: ('127.0.0.1', 58264) with name None
+INFO 2024-04-14 10:28:19,704 judge_handler Judge connected from: ('127.0.0.1', 58268)
+INFO 2024-04-14 10:28:19,761 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58268)
+INFO 2024-04-14 10:28:19,761 judge_handler Judge disconnected from: ('127.0.0.1', 58268) with name None
+INFO 2024-04-14 10:28:19,820 judge_handler Judge connected from: ('127.0.0.1', 58272)
+INFO 2024-04-14 10:28:19,876 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58272)
+INFO 2024-04-14 10:28:19,876 judge_handler Judge disconnected from: ('127.0.0.1', 58272) with name None
+INFO 2024-04-14 10:28:19,936 judge_handler Judge connected from: ('127.0.0.1', 58276)
+INFO 2024-04-14 10:28:19,993 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58276)
+INFO 2024-04-14 10:28:19,993 judge_handler Judge disconnected from: ('127.0.0.1', 58276) with name None
+INFO 2024-04-14 10:28:20,051 judge_handler Judge connected from: ('127.0.0.1', 58280)
+INFO 2024-04-14 10:28:20,108 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58280)
+INFO 2024-04-14 10:28:20,108 judge_handler Judge disconnected from: ('127.0.0.1', 58280) with name None
+INFO 2024-04-14 10:28:20,167 judge_handler Judge connected from: ('127.0.0.1', 58284)
+INFO 2024-04-14 10:28:20,225 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58284)
+INFO 2024-04-14 10:28:20,225 judge_handler Judge disconnected from: ('127.0.0.1', 58284) with name None
+INFO 2024-04-14 10:28:20,283 judge_handler Judge connected from: ('127.0.0.1', 58288)
+INFO 2024-04-14 10:28:20,340 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58288)
+INFO 2024-04-14 10:28:20,340 judge_handler Judge disconnected from: ('127.0.0.1', 58288) with name None
+INFO 2024-04-14 10:29:30,768 judge_handler Judge connected from: ('127.0.0.1', 58326)
+INFO 2024-04-14 10:29:30,823 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58326)
+INFO 2024-04-14 10:29:30,824 judge_handler Judge disconnected from: ('127.0.0.1', 58326) with name None
+INFO 2024-04-14 10:29:30,882 judge_handler Judge connected from: ('127.0.0.1', 58330)
+INFO 2024-04-14 10:29:30,938 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58330)
+INFO 2024-04-14 10:29:30,938 judge_handler Judge disconnected from: ('127.0.0.1', 58330) with name None
+INFO 2024-04-14 10:29:30,995 judge_handler Judge connected from: ('127.0.0.1', 58334)
+INFO 2024-04-14 10:29:31,051 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58334)
+INFO 2024-04-14 10:29:31,056 judge_handler Judge disconnected from: ('127.0.0.1', 58334) with name None
+INFO 2024-04-14 10:29:31,114 judge_handler Judge connected from: ('127.0.0.1', 58338)
+INFO 2024-04-14 10:29:31,169 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58338)
+INFO 2024-04-14 10:29:31,169 judge_handler Judge disconnected from: ('127.0.0.1', 58338) with name None
+INFO 2024-04-14 10:29:31,228 judge_handler Judge connected from: ('127.0.0.1', 58342)
+INFO 2024-04-14 10:29:31,283 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58342)
+INFO 2024-04-14 10:29:31,283 judge_handler Judge disconnected from: ('127.0.0.1', 58342) with name None
+INFO 2024-04-14 10:29:31,341 judge_handler Judge connected from: ('127.0.0.1', 58346)
+INFO 2024-04-14 10:29:31,397 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58346)
+INFO 2024-04-14 10:29:31,397 judge_handler Judge disconnected from: ('127.0.0.1', 58346) with name None
+INFO 2024-04-14 10:29:31,455 judge_handler Judge connected from: ('127.0.0.1', 58350)
+INFO 2024-04-14 10:29:31,511 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58350)
+INFO 2024-04-14 10:29:31,511 judge_handler Judge disconnected from: ('127.0.0.1', 58350) with name None
+INFO 2024-04-14 10:29:31,571 judge_handler Judge connected from: ('127.0.0.1', 58354)
+INFO 2024-04-14 10:29:31,627 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58354)
+INFO 2024-04-14 10:29:31,627 judge_handler Judge disconnected from: ('127.0.0.1', 58354) with name None
+INFO 2024-04-14 10:29:31,686 judge_handler Judge connected from: ('127.0.0.1', 58358)
+INFO 2024-04-14 10:29:31,743 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58358)
+INFO 2024-04-14 10:29:31,743 judge_handler Judge disconnected from: ('127.0.0.1', 58358) with name None
+INFO 2024-04-14 10:29:31,802 judge_handler Judge connected from: ('127.0.0.1', 58362)
+INFO 2024-04-14 10:29:31,859 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58362)
+INFO 2024-04-14 10:29:31,859 judge_handler Judge disconnected from: ('127.0.0.1', 58362) with name None
+INFO 2024-04-14 10:32:40,009 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45136)
+INFO 2024-04-14 10:32:40,123 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45140)
+INFO 2024-04-14 10:32:40,236 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45144)
+INFO 2024-04-14 10:32:40,352 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45148)
+INFO 2024-04-14 10:32:40,467 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45152)
+INFO 2024-04-14 10:32:40,580 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45156)
+INFO 2024-04-14 10:32:40,693 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45160)
+INFO 2024-04-14 10:32:40,808 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45164)
+INFO 2024-04-14 10:32:40,921 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45168)
+INFO 2024-04-14 10:32:41,034 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45172)
+INFO 2024-04-14 10:32:41,094 judge_handler Judge connected from: ('127.0.0.1', 58424)
+INFO 2024-04-14 10:32:41,150 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58424)
+INFO 2024-04-14 10:32:41,150 judge_handler Judge disconnected from: ('127.0.0.1', 58424) with name None
+INFO 2024-04-14 10:32:41,207 judge_handler Judge connected from: ('127.0.0.1', 58428)
+INFO 2024-04-14 10:32:41,263 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58428)
+INFO 2024-04-14 10:32:41,263 judge_handler Judge disconnected from: ('127.0.0.1', 58428) with name None
+INFO 2024-04-14 10:32:41,321 judge_handler Judge connected from: ('127.0.0.1', 58432)
+INFO 2024-04-14 10:32:41,377 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58432)
+INFO 2024-04-14 10:32:41,378 judge_handler Judge disconnected from: ('127.0.0.1', 58432) with name None
+INFO 2024-04-14 10:32:41,688 judge_handler Judge connected from: ('127.0.0.1', 58436)
+INFO 2024-04-14 10:32:41,745 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58436)
+INFO 2024-04-14 10:32:41,745 judge_handler Judge disconnected from: ('127.0.0.1', 58436) with name None
+INFO 2024-04-14 10:32:41,803 judge_handler Judge connected from: ('127.0.0.1', 58440)
+INFO 2024-04-14 10:32:41,860 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58440)
+INFO 2024-04-14 10:32:41,860 judge_handler Judge disconnected from: ('127.0.0.1', 58440) with name None
+INFO 2024-04-14 10:32:41,917 judge_handler Judge connected from: ('127.0.0.1', 58444)
+INFO 2024-04-14 10:32:41,973 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58444)
+INFO 2024-04-14 10:32:41,973 judge_handler Judge disconnected from: ('127.0.0.1', 58444) with name None
+INFO 2024-04-14 10:32:42,030 judge_handler Judge connected from: ('127.0.0.1', 58448)
+INFO 2024-04-14 10:32:42,086 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58448)
+INFO 2024-04-14 10:32:42,086 judge_handler Judge disconnected from: ('127.0.0.1', 58448) with name None
+INFO 2024-04-14 10:32:42,144 judge_handler Judge connected from: ('127.0.0.1', 58452)
+INFO 2024-04-14 10:32:42,200 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58452)
+INFO 2024-04-14 10:32:42,200 judge_handler Judge disconnected from: ('127.0.0.1', 58452) with name None
+INFO 2024-04-14 10:32:42,258 judge_handler Judge connected from: ('127.0.0.1', 58456)
+INFO 2024-04-14 10:32:42,314 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58456)
+INFO 2024-04-14 10:32:42,314 judge_handler Judge disconnected from: ('127.0.0.1', 58456) with name None
+INFO 2024-04-14 10:32:42,371 judge_handler Judge connected from: ('127.0.0.1', 58460)
+INFO 2024-04-14 10:32:42,427 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58460)
+INFO 2024-04-14 10:32:42,427 judge_handler Judge disconnected from: ('127.0.0.1', 58460) with name None
+INFO 2024-04-14 10:32:42,485 judge_handler Judge connected from: ('127.0.0.1', 58464)
+INFO 2024-04-14 10:32:42,541 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58464)
+INFO 2024-04-14 10:32:42,541 judge_handler Judge disconnected from: ('127.0.0.1', 58464) with name None
+INFO 2024-04-14 10:32:42,605 judge_handler Judge connected from: ('127.0.0.1', 58468)
+INFO 2024-04-14 10:32:42,662 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58468)
+INFO 2024-04-14 10:32:42,662 judge_handler Judge disconnected from: ('127.0.0.1', 58468) with name None
+INFO 2024-04-14 10:32:42,719 judge_handler Judge connected from: ('127.0.0.1', 58472)
+INFO 2024-04-14 10:32:42,775 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58472)
+INFO 2024-04-14 10:32:42,775 judge_handler Judge disconnected from: ('127.0.0.1', 58472) with name None
+INFO 2024-04-14 10:43:30,115 judge_handler Judge connected from: ('127.0.0.1', 58518)
+INFO 2024-04-14 10:43:30,116 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58518)
+INFO 2024-04-14 10:43:30,117 judge_handler Judge disconnected from: ('127.0.0.1', 58518) with name None
+INFO 2024-04-14 10:44:01,132 judge_handler Judge connected from: ('127.0.0.1', 58524)
+INFO 2024-04-14 10:44:01,133 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58524)
+INFO 2024-04-14 10:44:01,134 judge_handler Judge disconnected from: ('127.0.0.1', 58524) with name None
+INFO 2024-04-14 10:50:30,224 judge_handler Judge connected from: ('127.0.0.1', 58558)
+INFO 2024-04-14 10:50:30,226 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 58558)
+INFO 2024-04-14 10:50:30,226 judge_handler Judge disconnected from: ('127.0.0.1', 58558) with name None
+INFO 2024-04-14 10:50:32,504 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45314)
+INFO 2024-04-14 11:26:54,510 daemon Exiting due to SIGINT
+INFO 2024-04-14 11:47:39,064 daemon Exiting due to SIGINT
+INFO 2024-04-14 11:56:53,407 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45790)
+INFO 2024-04-14 11:56:53,655 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45794)
+INFO 2024-04-14 11:56:53,890 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45798)
+INFO 2024-04-14 11:56:54,188 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45802)
+INFO 2024-04-14 11:56:54,422 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45806)
+INFO 2024-04-14 11:56:54,660 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45810)
+INFO 2024-04-14 11:56:54,903 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45814)
+INFO 2024-04-14 11:56:55,201 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45818)
+INFO 2024-04-14 11:56:55,441 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45822)
+INFO 2024-04-14 11:56:55,697 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 45826)
+INFO 2024-04-14 12:03:14,730 daemon Exiting due to SIGTERM
+INFO 2024-04-14 12:09:23,866 daemon Exiting due to SIGTERM
+INFO 2024-04-14 12:13:05,553 judge_handler Judge connected from: ('172.17.0.2', 48718)
+INFO 2024-04-14 12:13:05,563 judge_handler Judge authenticated: ('172.17.0.2', 48718) (juez1)
+INFO 2024-04-14 12:31:23,561 judge_handler Judge connected from: ('10.6.129.35', 41828)
+INFO 2024-04-14 12:31:23,562 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('10.6.129.35', 41828)
+INFO 2024-04-14 12:31:23,563 judge_handler Judge disconnected from: ('10.6.129.35', 41828) with name None
+INFO 2024-04-14 12:32:05,867 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46288)
+INFO 2024-04-14 12:32:06,112 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46292)
+INFO 2024-04-14 12:32:06,352 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46296)
+INFO 2024-04-14 12:32:06,631 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46300)
+INFO 2024-04-14 12:32:06,877 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46304)
+INFO 2024-04-14 12:32:07,116 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46308)
+INFO 2024-04-14 12:32:07,366 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46312)
+INFO 2024-04-14 12:32:07,606 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46316)
+INFO 2024-04-14 12:32:07,853 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46320)
+INFO 2024-04-14 12:32:08,094 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46324)
+INFO 2024-04-14 12:33:04,910 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46328)
+INFO 2024-04-14 12:33:05,160 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46332)
+INFO 2024-04-14 12:33:05,457 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46336)
+INFO 2024-04-14 12:33:05,749 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46340)
+INFO 2024-04-14 12:33:05,986 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46344)
+INFO 2024-04-14 12:33:06,229 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46348)
+INFO 2024-04-14 12:33:06,471 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46352)
+INFO 2024-04-14 12:33:06,715 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46356)
+INFO 2024-04-14 12:33:06,957 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46360)
+INFO 2024-04-14 12:33:07,194 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46364)
+INFO 2024-04-14 12:36:54,820 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46542)
+INFO 2024-04-14 12:36:55,062 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46546)
+INFO 2024-04-14 12:36:55,300 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46550)
+INFO 2024-04-14 12:36:55,536 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46554)
+INFO 2024-04-14 12:36:55,830 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46558)
+INFO 2024-04-14 12:36:56,072 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46562)
+INFO 2024-04-14 12:36:56,315 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46566)
+INFO 2024-04-14 12:36:56,550 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46570)
+INFO 2024-04-14 12:36:56,789 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46574)
+INFO 2024-04-14 12:36:57,031 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 46578)
+INFO 2024-04-14 15:07:43,811 judge_handler Judge disconnected from: ('172.17.0.2', 48718) with name juez1
+INFO 2024-04-14 15:10:59,979 daemon Exiting due to SIGTERM
+INFO 2024-04-14 15:14:40,827 judge_handler Judge connected from: ('172.17.0.2', 50312)
+INFO 2024-04-14 15:14:40,838 judge_handler Judge authenticated: ('172.17.0.2', 50312) (juez1)
+INFO 2024-04-14 15:27:39,759 judge_handler Judge disconnected from: ('172.17.0.2', 50312) with name juez1
+INFO 2024-04-14 15:28:08,614 daemon Exiting due to SIGTERM
+INFO 2024-04-14 15:31:59,066 daemon Exiting due to SIGTERM
+INFO 2024-04-14 15:33:35,676 judge_handler Judge connected from: ('172.17.0.2', 50488)
+WARNING 2024-04-14 15:33:35,690 judge_handler Judge authentication failure: ('172.17.0.2', 50488)
+INFO 2024-04-14 15:33:35,691 judge_handler Judge disconnected from: ('172.17.0.2', 50488) with name None
+INFO 2024-04-14 15:33:39,693 judge_handler Judge connected from: ('172.17.0.2', 50492)
+WARNING 2024-04-14 15:33:39,697 judge_handler Judge authentication failure: ('172.17.0.2', 50492)
+INFO 2024-04-14 15:33:39,698 judge_handler Judge disconnected from: ('172.17.0.2', 50492) with name None
+INFO 2024-04-14 15:33:45,701 judge_handler Judge connected from: ('172.17.0.2', 50496)
+WARNING 2024-04-14 15:33:45,705 judge_handler Judge authentication failure: ('172.17.0.2', 50496)
+INFO 2024-04-14 15:33:45,706 judge_handler Judge disconnected from: ('172.17.0.2', 50496) with name None
+INFO 2024-04-14 15:33:54,710 judge_handler Judge connected from: ('172.17.0.2', 50500)
+WARNING 2024-04-14 15:33:54,714 judge_handler Judge authentication failure: ('172.17.0.2', 50500)
+INFO 2024-04-14 15:33:54,715 judge_handler Judge disconnected from: ('172.17.0.2', 50500) with name None
+INFO 2024-04-14 15:34:08,219 judge_handler Judge connected from: ('172.17.0.2', 50504)
+WARNING 2024-04-14 15:34:08,227 judge_handler Judge authentication failure: ('172.17.0.2', 50504)
+INFO 2024-04-14 15:34:08,227 judge_handler Judge disconnected from: ('172.17.0.2', 50504) with name None
+INFO 2024-04-14 15:34:43,228 daemon Exiting due to SIGTERM
+INFO 2024-04-14 15:35:56,793 judge_handler Judge connected from: ('172.17.0.2', 50586)
+INFO 2024-04-14 15:35:56,803 judge_handler Judge authenticated: ('172.17.0.2', 50586) (juez1)
+INFO 2024-04-14 15:36:43,531 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47862)
+INFO 2024-04-14 15:38:48,612 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47912)
+INFO 2024-04-14 15:38:48,984 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47918)
+INFO 2024-04-14 15:38:49,354 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47924)
+INFO 2024-04-14 15:38:49,760 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47930)
+INFO 2024-04-14 15:38:50,131 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47936)
+INFO 2024-04-14 15:38:50,561 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47942)
+INFO 2024-04-14 15:38:50,932 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47948)
+INFO 2024-04-14 15:38:51,324 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47954)
+INFO 2024-04-14 15:38:51,693 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47960)
+INFO 2024-04-14 15:38:52,176 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47966)
+INFO 2024-04-14 15:38:55,313 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47972)
+INFO 2024-04-14 15:38:55,794 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47978)
+INFO 2024-04-14 15:38:56,265 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47984)
+INFO 2024-04-14 15:38:56,651 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47990)
+INFO 2024-04-14 15:38:57,032 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 47996)
+INFO 2024-04-14 15:38:57,466 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48002)
+INFO 2024-04-14 15:38:57,924 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48008)
+INFO 2024-04-14 15:38:58,301 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48014)
+INFO 2024-04-14 15:38:58,833 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48020)
+INFO 2024-04-14 15:38:59,304 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48026)
+INFO 2024-04-14 15:43:03,961 judge_handler Judge disconnected from: ('172.17.0.2', 50586) with name juez1
+INFO 2024-04-14 15:43:23,539 daemon Exiting due to SIGTERM
+INFO 2024-04-14 15:48:24,514 judge_handler Judge connected from: ('172.17.0.2', 50844)
+INFO 2024-04-14 15:48:24,526 judge_handler Judge authenticated: ('172.17.0.2', 50844) (juez1)
+INFO 2024-04-14 15:53:39,262 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48206)
+INFO 2024-04-14 15:53:39,741 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48212)
+INFO 2024-04-14 15:53:40,229 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48218)
+INFO 2024-04-14 15:53:40,688 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48224)
+INFO 2024-04-14 15:53:41,088 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48230)
+INFO 2024-04-14 15:53:41,459 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48236)
+INFO 2024-04-14 15:53:41,962 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48242)
+INFO 2024-04-14 15:53:42,346 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48248)
+INFO 2024-04-14 15:53:42,722 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48254)
+INFO 2024-04-14 15:53:43,120 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48260)
+INFO 2024-04-14 15:54:09,390 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48324)
+INFO 2024-04-14 15:54:10,029 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48330)
+INFO 2024-04-14 15:54:10,460 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48336)
+INFO 2024-04-14 15:54:10,944 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48342)
+INFO 2024-04-14 15:54:11,361 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48348)
+INFO 2024-04-14 15:54:11,819 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48354)
+INFO 2024-04-14 15:54:12,293 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48360)
+INFO 2024-04-14 15:54:12,669 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48366)
+INFO 2024-04-14 15:54:13,150 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48372)
+INFO 2024-04-14 15:54:13,517 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('127.0.0.1', 48378)
+INFO 2024-04-15 06:55:00,186 daemon Exiting due to SIGINT
+INFO 2024-04-15 06:56:07,415 judge_handler Judge connected from: ('172.17.0.2', 42978)
+INFO 2024-04-15 06:56:07,444 judge_handler Judge authenticated: ('172.17.0.2', 42978) (juez1)
+INFO 2024-04-20 05:20:07,008 daemon Exiting due to SIGINT
+INFO 2024-04-20 05:21:05,717 judge_handler Judge connected from: ('172.17.0.2', 38142)
+INFO 2024-04-20 05:21:05,730 judge_handler Judge authenticated: ('172.17.0.2', 38142) (juez1)

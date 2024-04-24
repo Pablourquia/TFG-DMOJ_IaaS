@@ -508,7 +508,9 @@ MARTOR_MARKDOWN_BASE_MENTION_URL = '/user/'
 
 # Directory under MEDIA_ROOT to use to store image uploaded through martor.
 MARTOR_UPLOAD_MEDIA_DIR = 'martor'
-MARTOR_UPLOAD_SAFE_EXTS = {'.jpg', '.png', '.gif'}
+MARTOR_UPLOAD_SAFE_EXTS = {'.jpg', '.png', '.gif', 'pdf', 'txt'}
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+ALLOWED_EXTENSIONS = ['pdf', 'txt', 'jpg', 'jpeg', 'png', 'gif']
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -542,11 +544,11 @@ EVENT_DAEMON_SUBMISSION_KEY = '6Sdmkx^%pk@GsifDfXcwX*Y7LRF%RGT8vmFpSxFBT$fwS7trc
 
 # Whatever you do, this better be one of the entries in `LANGUAGES`.
 LANGUAGE_CODE = 'en'
-TIME_ZONE = 'UTC'
-DEFAULT_USER_TIME_ZONE = 'America/Toronto'
+TIME_ZONE = 'GMT'
+DEFAULT_USER_TIME_ZONE = 'Atlantic/Canary'
 USE_I18N = True
 USE_L10N = True
-USE_TZ = True
+USE_TZ = False
 
 # Cookies
 SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'

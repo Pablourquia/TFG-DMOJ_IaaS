@@ -176,6 +176,8 @@ class Contest(models.Model):
                                            validators=[MinValueValidator(0), MaxValueValidator(10)],
                                            help_text=_('Number of digits to round points to.'))
 
+    questions_ids = models.JSONField(verbose_name=_('questions ids'), null=True, blank=True,
+                                     help_text=_('A list of question ids for the questionnaire.'))
     @cached_property
     def format_class(self):
         return contest_format.formats[self.format_name]

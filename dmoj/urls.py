@@ -21,6 +21,7 @@ from judge.views.register import ActivationView, RegistrationView
 from judge.views.select2 import AssigneeSelect2View, ClassSelect2View, CommentSelect2View, ContestSelect2View, \
     ContestUserSearchSelect2View, OrganizationSelect2View, ProblemSelect2View, TicketUserSelect2View, \
     UserSearchSelect2View, UserSelect2View
+from judge.views.questionnaire import QuestionnaireView, QuestionView, AddQuestionView, AddResponseView, serve_file
 from judge.views.widgets import martor_image_uploader
 
 admin.autodiscover()
@@ -92,6 +93,10 @@ def paged_list_view(view, name):
 
 
 urlpatterns = [
+    path('serve-file/<path:file_path>/', serve_file, name='serve_file'),
+    path('admin/questionnaire/', QuestionnaireView.as_view(), name='questionnaire'),
+    path('admin/question/', QuestionView.as_view(), name='question'),
+    path('admin/add_question/', AddQuestionView.as_view(), name='add_question'),
     path('', blog.PostList.as_view(template_name='home.html', title=_('Home')), kwargs={'page': 1}, name='home'),
     path('500/', exception),
     path('admin/', admin.site.urls),
@@ -199,6 +204,7 @@ urlpatterns = [
 
     path('contest/<str:contest>', include([
         path('', contests.ContestDetail.as_view(), name='contest_view'),
+        path('/question/<str:question>', AddResponseView.as_view(), name='add_response'),
         path('/moss', contests.ContestMossView.as_view(), name='contest_moss'),
         path('/moss/delete', contests.ContestMossDelete.as_view(), name='contest_moss_delete'),
         path('/clone', contests.ContestClone.as_view(), name='contest_clone'),
